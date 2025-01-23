@@ -4,6 +4,7 @@ import MyPage from "./pages/MyPage";
 import DetailsPage from "./pages/DetailsPage"
 import Signup from "./pages/Signup"
 import WritePage from "./pages/WritePage"
+import "./styles/reset.css"
 
 function App() {
   return (
