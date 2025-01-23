@@ -15,7 +15,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: "Pretendard";
 	vertical-align: baseline;
 }
 
@@ -26,4 +26,5 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	background-color: #FCFCFC;
+	font-family: "Pretendard";
 }
