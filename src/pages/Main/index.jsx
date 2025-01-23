@@ -1,7 +1,8 @@
 import * as S from "./style";
+import Header from "../../components/Header";
 
 function Main() {
-  return <S.Text>메인</S.Text>;
+  return <Header />;
 }
 
 export default Main;
