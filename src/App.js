@@ -12,9 +12,9 @@ function App() {
       <Routes>
         <Route path="/main" element={<Main />} />
         <Route path="/mypage" element={<MyPage />} />
-        <Route path="detailspage" element={<DetailsPage />}/>
-        <Route path="signup" element={<Signup />}/>
-        <Route path="writepage" element={<WritePage />}/>
+        <Route path="/detailspage" element={<DetailsPage />}/>
+        <Route path="/signup" element={<Signup />}/>
+        <Route path="/writepage" element={<WritePage />}/>
       </Routes>
     </Router>
   );
