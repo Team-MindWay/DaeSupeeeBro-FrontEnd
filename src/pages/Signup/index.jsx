@@ -1,15 +1,18 @@
-import * as S from './style';
+import * as S from "./style";
+import EmailBox from "../../components/EmailBox";
+import PasswordBox from "../../components/PasswordBox";
+import PasswordCheckBox from "../../components/PasswordCheckBox";
 
-const Form = () => {
+function Signup() {
   return (
     <S.Container>
       <S.Title>회원가입</S.Title>
-      <InputBox type="text" text="이메일 (@gsm.hs.kr)" />
-      <InputBox type="password" text="비밀번호" />
-      <InputBox type="password" text="비밀번호 확인" />
+      <EmailBox />
+      <PasswordBox />
+      <PasswordCheckBox />
       <S.Button>회원가입</S.Button>
     </S.Container>
   );
-};
+}
 
-export default Form;
+export default Signup;
