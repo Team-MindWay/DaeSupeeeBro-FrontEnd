@@ -51,3 +51,15 @@
   src: url("/public/fonts/Pretendard-Black.woff2") format("woff2");
   font-weight: 900;
 }
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("/public/fonts/NotoSansKR/NotoSansKR-Regular.ttf") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("/public/fonts/NotoSansKR/NotoSansKR-Bold.ttf") format("woff2");
+  font-weight: 700;
+}
