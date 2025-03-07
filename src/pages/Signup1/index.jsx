@@ -1,8 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import * as S from "./style";
-import EmailBox from "../../components/EmailBox";
-import PasswordBox from "../../components/PasswordBox";
-import PasswordCheckBox from "../../components/PasswordCheckBox";
+import InputBox from "../../components/InputBox";
 
 function Signup() {
   const navigate = useNavigate();
@@ -10,9 +8,9 @@ function Signup() {
   return (
     <S.Container>
       <S.Title>회원가입</S.Title>
-      <EmailBox />
-      <PasswordBox />
-      <PasswordCheckBox />
+      <InputBox type="text" text="이메일 (@gsm.hs.kr)" width="536px" eye={false}/>
+      <InputBox type="password" text="비밀번호" width="536px" eye={true}/>
+      <InputBox type="password" text="비밀번호 확인" width="536px" eye={false}/>
       <S.Button onClick={() => {navigate("/Signup2")}}>회원가입</S.Button>
     </S.Container>
   );
