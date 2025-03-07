@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100vw;
@@ -15,7 +15,7 @@ export const Title = styled.div`
   text-align: center;
   font-size: 40px;
   font-weight: 700;
-  font-feature-settings: 'liga' off, 'clig' off;
+  font-feature-settings: "liga" off, "clig" off;
   letter-spacing: -2px;
 `;
 
@@ -31,8 +31,8 @@ export const Input = styled.input`
 export const Button = styled.button`
   width: 512px;
   height: 92px;
-  background-color: #34C759;
-  color: #FCFCFC;
+  background-color: #34c759;
+  color: #fcfcfc;
   border: none;
   border-radius: 10px;
   margin-top: 43px;
@@ -51,15 +51,16 @@ export const Select = styled.select`
   margin-top: 20px;
   border-radius: 10px;
   border: 1px solid #707070;
-  background: #F9F9F9;
+  background: #f9f9f9;
   color: #707070;
   font-size: 22px;
   font-weight: 500;
   letter-spacing: -0.5px;
+  padding: 23px;
 `;
 
 export const Option = styled.option`
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   color: #707070;
   font-size: 18px;
   font-weight: 500;
