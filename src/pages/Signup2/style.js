@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  transform: scale(0.8, 0.8);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -11,57 +10,59 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.div`
-  margin-bottom: 4rem;
+  margin-bottom: 90px;
   color: #121212;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: 700;
-  letter-spacing: -0.125rem;
+  font-feature-settings: "liga" off, "clig" off;
+  letter-spacing: -2px;
 `;
 
 export const Input = styled.input`
-  width: 18.75rem;
-  height: 2.5rem;
-  margin-bottom: 0.625rem;
-  padding: 0.625rem;
-  border: 0.0625rem solid #ccc;
-  border-radius: 0.3125rem;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 `;
 
 export const Button = styled.button`
-  width: 32rem;
-  height: 5.75rem;
+  width: 512px;
+  height: 92px;
   background-color: #34c759;
   color: #fcfcfc;
   border: none;
-  border-radius: 0.625rem;
-  margin-top: 3.5rem;
-  font-size: 1.875rem;
+  border-radius: 10px;
+  margin-top: 43px;
+  font-size: 30px;
+  font-family: "Prestandard";
   font-weight: 700;
-  letter-spacing: -0.01rem;
+  letter-spacing: -0.16px;
   cursor: pointer;
 `;
 
 export const Select = styled.select`
   appearance: none;
   outline: none;
-  width: 36.25rem;
-  height: 6.25rem;
-  margin-top: 1.25rem;
-  border-radius: 0.625rem;
-  border: 0.0625rem solid #707070;
+  width: 580px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #707070;
   background: #f9f9f9;
   color: #707070;
-  font-size: 1.375rem;
+  font-size: 22px;
   font-weight: 500;
-  letter-spacing: -0.03125rem;
-  padding: 1.4375rem;
+  letter-spacing: -0.5px;
+  padding: 23px;
 `;
 
 export const Option = styled.option`
   background-color: #f9f9f9;
   color: #707070;
-  font-size: 1.125rem;
+  font-size: 18px;
   font-weight: 500;
-  letter-spacing: -0.03125rem;
+  letter-spacing: -0.5px;
 `;
