@@ -2,31 +2,33 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100vw;
-  height: 72px;
-  background-color: #34C759;
+  height: 4.5rem;
+  padding: 0 18.56rem;
+  position: fixed;
+  top: 0;
+  background-color: #34c759;
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
 export const SearchBox = styled.div`
-  width: 440px;
-  height: 40px;
-  padding: 4px 13px;
-  margin: 0 44px;
-  background-color: #FCFCFC;
-  border-radius: 40px;
+  width: 35.625rem;
+  height: 2.5rem;
+  margin: 0 2.75rem;
+  padding: 0 1.38rem;
+  background-color: #fcfcfc;
+  border-radius: 2.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 `;
 
 export const Input = styled.input`
-  width: 390px;
-  height: 32px;
+  width: 33rem;
+  height: 2rem;
   font-size: inherit;
   font-family: "Pretendard";
-  padding-left: 10px;
   background-color: none;
   color: none;
   border: none;
@@ -43,16 +45,16 @@ export const ButtonBox = styled.div`
 `;
 
 export const Button = styled.div`
-  color: ${({ isTrue }) => ( isTrue ? `#34C759` : `#FCFCFC`)};
-  background-color: ${({ isTrue }) => ( isTrue ? `#FCFCFC` : `#34C759`)};
-  font-size: 20px;
+  color: ${({ isTrue }) => (isTrue ? `#34C759` : `#FCFCFC`)};
+  background-color: ${({ isTrue }) => (isTrue ? `#FCFCFC` : `#34C759`)};
+  font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
-  padding: 13px 16px;
-  margin-left: 16px;
-  border-radius: 8px;
+  padding: 0.8125rem 1rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
 `;
 
 export const Icon = styled.img`
-  padding: 20px 0 20px 28px;
+  padding: 1.25rem 0 1.25rem 1.75rem;
 `;
