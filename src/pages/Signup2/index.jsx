@@ -5,7 +5,7 @@ function Signup() {
   return (
     <S.Container>
       <S.Title>회원가입</S.Title>
-      <InputBox type="text" text="이름" width="536px" eye={false} />
+      <InputBox type="text" text="이름" eye={false} />
       <S.Select name="학년">
         <S.Option value="">학년</S.Option>
         <S.Option value="1학년">1학년</S.Option>

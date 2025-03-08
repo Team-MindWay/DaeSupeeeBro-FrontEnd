@@ -1,6 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
+  transform: scale(0.8, 0.8);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -10,26 +11,25 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.div`
-  margin-bottom: 90px;
+  margin-bottom: 4rem;
   color: #121212;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
-  font-feature-settings: 'liga' off, 'clig' off;
-  letter-spacing: -2px;
+  font-feature-settings: "liga" off, "clig" off;
+  letter-spacing: -0.125rem;
 `;
 
 export const Button = styled.button`
-  width: 512px;
-  height: 92px;
-  background-color: #34C759;
-  color: #FCFCFC;
+  width: 32rem;
+  height: 5.75rem;
+  background-color: #34c759;
+  color: #fcfcfc;
   border: none;
-  border-radius: 10px;
-  margin-top: 43px;
-  font-size: 30px;
-  font-family: "Prestandard";
+  border-radius: 0.625rem;
+  margin-top: 3.5rem;
+  font-size: 1.875rem;
   font-weight: 700;
-  letter-spacing: -0.16px;
+  letter-spacing: -0.01rem;
   cursor: pointer;
 `;
