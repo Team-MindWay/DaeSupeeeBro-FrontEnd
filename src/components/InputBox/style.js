@@ -1,25 +1,27 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  width: 36.25rem;
-  height: 6.25rem;
-  margin-top: 1.25rem;
-  border-radius: 0.625rem;
+  width: 580px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 10px;
   border: 1px solid #707070;
   background: #F9F9F9;
   display: flex;
+
 `;
 
 export const Input = styled.input`
-  width: 33.5rem;
-  height: 4.25rem;
-  font-size: 1.375rem;
+  width: ${props => props.width};;
+  height: 68px;
+  font-size: 22px;
   font-weight: 500;
-  letter-spacing: -0.03125rem;
+  letter-spacing: -0.5px;
   background-color: #00ff0000;
   color: #707070;
   border: none;
-  margin: 1rem 1.375rem;
+  margin: 16px 22px;
+
 
   &:focus {
     background-color: none;
@@ -28,5 +30,5 @@ export const Input = styled.input`
 `;
 
 export const Eye = styled.img`
-  margin: 2.0625rem 1.5rem 2.0625rem 0;
+  margin: 33px;
 `;
