@@ -6,9 +6,8 @@ function FindPasswordPage() {
     <S.Container>
       <S.Title>비밀번호 찾기</S.Title>
       <S.Wrapper>
-        <InputBox type="text" text="이메일 (@gsm.hs.kr)" width="33.5rem" eye={false}
-        />
-        <InputBox type="text" text="인증번호" width="33.5rem" />
+        <InputBox type="text" text="이메일 (@gsm.hs.kr)" eye={false} />
+        <InputBox type="text" text="인증번호" />
       </S.Wrapper>
       <S.Button>비밀번호 찾기</S.Button>
     </S.Container>
