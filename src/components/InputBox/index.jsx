@@ -8,7 +8,7 @@ function InputBox({ type, text, eye }) {
 
   return (
     <S.Wrapper>
-      <S.Input type={isEyeOpen ? "text" : type} placeholder={text}/>
+      <S.Input max={50} type={isEyeOpen ? "text" : type} placeholder={text}/>
       {eye && (
         <S.Eye
           src={isEyeOpen ? EyeT : EyeF}
