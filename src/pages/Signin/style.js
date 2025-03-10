@@ -7,11 +7,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 `;
 
 export const Title = styled.div`
-  position: absolute;
-  top: 7.5rem;
   color: #121212;
   text-align: center;
   font-size: 2.5rem;
@@ -20,8 +19,7 @@ export const Title = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  position: absolute;
-  top: 16.875rem;
+  margin-top: 4.625rem;
 `;
 
 export const GogoPassword = styled.div`
@@ -71,8 +69,7 @@ export const Button = styled.button`
 `;
 
 export const ButtonWrapper = styled.div`
-  position: absolute;
-  top: 39rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
