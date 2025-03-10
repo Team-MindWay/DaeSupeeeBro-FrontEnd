@@ -3,17 +3,17 @@ import * as S from "./style";
 import EyeT from "../../assets/Eye.svg";
 import EyeF from "../../assets/EyeSlash.svg";
 
-function InputBox({ type, text, width, height, eye }) {
+function InputBox({ type, text, eye }) {
   const [isEyeOpen, setEye] = useState(false);
 
   return (
     <S.Wrapper>
-      <S.Input type={isEyeOpen ? "text" : type} placeholder={text} width={width} />
+      <S.Input max={50} type={isEyeOpen ? "text" : type} placeholder={text}/>
       {eye && (
         <S.Eye
           src={isEyeOpen ? EyeT : EyeF}
-          alt=""
-          onClick={() => {setEye(!isEyeOpen)}}
+          alt="비밀번호 숨기기 버튼"
+          onClick={() => setEye(!isEyeOpen)}
         />
       )}
     </S.Wrapper>
