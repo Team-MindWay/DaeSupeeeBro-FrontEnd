@@ -15,16 +15,16 @@ function Header() {
 
   return (
     <S.Wrapper>
-      <img src={Logo} alt="" />
+      <img src={Logo} alt="대숲이형 로고" />
       <S.SearchBox>
         <S.Input />
-        <img src={Magnifier} alt="" />
+        <img src={Magnifier} alt="검색 버튼" />
       </S.SearchBox>
       <S.ButtonBox>
         {Pages.map((page) => {
           return (
             <S.Button 
-              onClick={() => { navigate(page.url);}}
+              onClick={() => navigate(page.url)}
               isTrue={window.location.pathname === page.url}
             >
               {page.id}
@@ -32,8 +32,8 @@ function Header() {
           );
         })}
 
-        <S.Icon src={Bell} alt="" />
-        <S.Icon src={Menu} alt="" />
+        <S.Icon src={Bell} alt="알림 버튼" />
+        <S.Icon src={Menu} alt="메뉴 버튼" />
       </S.ButtonBox>
     </S.Wrapper>
   );

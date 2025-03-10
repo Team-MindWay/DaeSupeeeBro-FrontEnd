@@ -10,7 +10,7 @@ function PostBox({ title, writer, text, like }) {
       </S.Top>
       <S.Text>{text}</S.Text>
       <S.Like>
-        <img src={Heart} alt=''/>
+        <img src={Heart} alt='좋아요'/>
         {' ' + like}
       </S.Like>
     </S.Wrapper>

@@ -16,7 +16,7 @@ function Signin() {
         <S.GogoPassword>
           <S.Sentence>비밀번호를 잊으셨나요?</S.Sentence>
           <S.Link
-            onClick={() => {navigate("/findpassword")}}
+            onClick={() => navigate("/findpassword")}
           >
             비밀번호 찾기
           </S.Link>
@@ -27,7 +27,7 @@ function Signin() {
         <S.Button>로그인</S.Button>
         <S.GogoSignup>
           <S.Sentence>대숲이형은 처음인가요?</S.Sentence>
-          <S.Link onClick={() => {navigate("/signup1")}}>
+          <S.Link onClick={() => navigate("/signup1")}>
             회원가입
           </S.Link>
         </S.GogoSignup>

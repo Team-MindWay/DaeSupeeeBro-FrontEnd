@@ -12,8 +12,8 @@ function InputBox({ type, text, eye }) {
       {eye && (
         <S.Eye
           src={isEyeOpen ? EyeT : EyeF}
-          alt=""
-          onClick={() => {setEye(!isEyeOpen)}}
+          alt="비밀번호 숨기기 버튼"
+          onClick={() => setEye(!isEyeOpen)}
         />
       )}
     </S.Wrapper>

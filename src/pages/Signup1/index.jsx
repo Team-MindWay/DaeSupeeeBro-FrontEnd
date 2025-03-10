@@ -11,7 +11,7 @@ function Signup() {
       <InputBox type="text" text="이메일 (@gsm.hs.kr)" eye={false}/>
       <InputBox type="password" text="비밀번호" eye={true}/>
       <InputBox type="password" text="비밀번호 확인" eye={false}/>
-      <S.Button onClick={() => {navigate("/Signup2")}}>회원가입</S.Button>
+      <S.Button onClick={() => navigate("/Signup2")}>회원가입</S.Button>
     </S.Container>
   );
 }
